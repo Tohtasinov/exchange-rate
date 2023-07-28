@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exchange Rate</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <img class="image" src="images/logo.png" alt="logo" srcset="" />
+      </div>
+      <h1>Currency Exchange</h1>
+      <div class="select">
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Select currency</option>
+          <option value="1">KGS</option>
+          <option value="2">USD</option>
+          <option value="3">EUR</option>
+          <option value="4">KZT</option>
+          <option value="5">RUB</option>
+        </select>
+      </div>
+    </header>
+    <div class="main">
+      <div class="calculator">
+        <h3>Calculator</h3>
+        <input class="input" type="text" placeholder="Enter amount" />
+
+        <div class="select">
+          <select class="form-select-1" aria-label="From currency">
+            <option selected>Select currency</option>
+            <option value="KGS">KGS</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="KZT">KZT</option>
+            <option value="RUB">RUB</option>
+          </select>
+
+          <select class="form-select-1" aria-label="To currency">
+            <option selected>Select currency</option>
+            <option value="KGS">KGS</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="KZT">KZT</option>
+            <option value="RUB">RUB</option>
+          </select>
+        </div>
+
+        <button class="button" onclick="convertCurrency()">Convert</button>
+
+        <div class="result" id="result"></div>
+      </div>
+      <div class="exchange-rate">
+        <h3>Exchange Rate</h3>
+
+        <table class="table" id="exchangeRatesTable"></table>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,168 @@
+  body {
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 153px;
+    border: black 2px solid;
+    background-color: #004d40;
+    color: #fff;
+  }
+
+  .header h1 {
+    position: absolute;
+    top: 50px;
+  }
+
+
+  .image {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 50px;
+  }
+
+  .form-select {
+    position: relative;
+    height: 50px;
+    left: 250px;
+    top: 22px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    text-align: center;
+
+  }
+
+  .calculator {
+    border: black 2px solid;
+    width: 40%;
+    height: 450px;
+    
+  }
+
+  .calculator h3 {
+    margin-top: 40px;
+    color: #004d40;
+
+  }
+
+
+
+  .exchange-rate {
+    border: black 2px solid;
+    width: 40%;
+
+  }
+
+  .select {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    
+  }
+
+
+  .form-select-1 {
+    height: 50px;
+    border-radius: 5px;
+    border: rgba(0, 0, 0, 0.249) 1px solid;
+    margin-left: 110px;
+  }
+
+  .input {
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    border: rgba(0, 0, 0, 0.249) 1px solid;
+    margin-top: 20px;
+
+  }
+
+  .exchange-rate {
+    width: 40%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .exchange-rate h3 {
+    margin-top: 20px;
+    margin-right: 20px;
+    color: #004d40;
+
+  }
+
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 21px;
+  }
+
+  .th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .th {
+    background-color: #f2f2f2;
+    margin-left: 20px;
+  }
+
+  .tr:hover {
+    background-color: #f5f5f5;
+  }
+
+
+
+  .input{
+    margin: 10px;
+    padding: 5px;
+    /* color: #004d40; */
+    /* background-color: #004d40; */
+
+  }
+
+  .select {
+    margin: 10px;
+    padding: 5px;
+  }
+
+  .button {
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 25px;
+    /* color: #004d40; */
+    background-color: #004d40;
+    color: white;
+    width: 110px;
+    height: 40px;
+    border-radius: 5px;
+
+  }
+
+  .button:hover {
+    background-color: #027260;
+  }
+
+  .result {
+    margin-top: 20px;
+  }
+
